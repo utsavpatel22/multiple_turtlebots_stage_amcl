@@ -1,4 +1,4 @@
-include "/opt/ros/indigo/share/turtlebot_stage/maps/stage/turtlebot.inc"
+include "/opt/ros/kinetic/share/turtlebot_stage/maps/stage/turtlebot.inc"
 
 define floorplan model
 (
