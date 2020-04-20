@@ -413,3 +413,72 @@ turtlebot
   name "turtlebot"
   color "orange"
 )
+
+# throw in a robot No 50
+turtlebot
+(
+  pose [4.0 18.0 0.0 0.0]
+  name "turtlebot"
+  color "brown"
+)
+
+# throw in a robot No 51
+
+turtlebot
+(
+  pose [4.0 16.0 0.0 0.0]
+  name "turtlebot"
+  color "red"
+)
+
+# throw in a robot No 52
+turtlebot
+(
+  pose [4.0 14.0 0.0 0.0]
+  name "turtlebot"
+  color "green"
+)
+
+# throw in a robot No 53
+turtlebot
+(
+  pose [4.0 12.0 0.0 0.0]
+  name "turtlebot"
+  color "blue"
+)
+
+# throw in a robot No 54
+turtlebot
+(
+  pose [4.0 10.0 0.0 0.0]
+  name "turtlebot"
+  color "yellow"
+)
+# throw in a robot No 55
+turtlebot
+(
+  pose [4.0 8.0 0.0 0.0]
+  name "turtlebot"
+  color "cyan"
+)
+# throw in a robot No 56
+turtlebot
+(
+  pose [4.0 6.0 0.0 0.0]
+  name "turtlebot"
+  color "purple"
+)
+# throw in a robot No 57
+turtlebot
+(
+  pose [4.0 4.0 0.0 0.0]
+  name "turtlebot"
+  color "pink"
+)
+# throw in a robot No 58
+turtlebot
+(
+  pose [4.0 2.0 0.0 0.0]
+  name "turtlebot"
+  color "grey"
+)
