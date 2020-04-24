@@ -1,0 +1,426 @@
+<launch>
+	<arg name="robotName71" default="robot_70" />
+	<arg name="robotName72" default="robot_71" />
+	<arg name="robotName73" default="robot_72" />
+	<arg name="robotName74" default="robot_73" />
+	<arg name="robotName75" default="robot_74" />
+	<arg name="robotName76" default="robot_75" />
+	<arg name="robotName77" default="robot_76" />
+	<arg name="robotName78" default="robot_77" />
+
+	<arg name="robotName79" default="robot_78" />
+	<arg name="robotName80" default="robot_79" />
+	<arg name="robotName81" default="robot_80" />
+	<arg name="robotName82" default="robot_81" />
+	<arg name="robotName83" default="robot_82" />
+	<arg name="robotName84" default="robot_83" />
+	<arg name="robotName85" default="robot_84" />
+	<arg name="robotName86" default="robot_85" />
+	<arg name="robotName87" default="robot_86" />
+
+	<arg name="robotName88" default="robot_87" />
+	<arg name="robotName89" default="robot_88" />
+	<arg name="robotName90" default="robot_89" />
+	<arg name="robotName91" default="robot_90" />
+	<arg name="robotName92" default="robot_91" />
+	<arg name="robotName93" default="robot_92" />
+	<arg name="robotName94" default="robot_93" />
+	<arg name="robotName95" default="robot_94" />
+	<arg name="robotName96" default="robot_95" />
+	<arg name="robotName97" default="robot_96" />
+
+	<arg name="robotName98" default="robot_97" />
+	<arg name="robotName99" default="robot_98" />
+	<arg name="robotName100" default="robot_99" />
+	<!-- BEGIN ROBOT 70 -->
+  <group ns="robot_70">
+    <param name="tf_prefix" value="$(arg robotName71)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName71)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="34.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 70 -->
+
+
+  <!-- BEGIN ROBOT 71 -->
+  <group ns="robot_71">
+    <param name="tf_prefix" value="$(arg robotName72)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName72)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="32.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 71 -->
+
+  <!-- BEGIN ROBOT 72 -->
+  <group ns="robot_72">
+    <param name="tf_prefix" value="$(arg robotName73)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName73)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="30.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 72 -->
+
+  <!-- BEGIN ROBOT 73 -->
+  <group ns="robot_73">
+    <param name="tf_prefix" value="$(arg robotName74)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName74)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="28.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 73 -->
+
+  <!-- BEGIN ROBOT 74 -->
+  <group ns="robot_74">
+    <param name="tf_prefix" value="$(arg robotName75)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName75)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="26.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 74 -->
+
+  <!-- BEGIN ROBOT 75 -->
+  <group ns="robot_75">
+    <param name="tf_prefix" value="$(arg robotName76)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName76)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="24.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 75 -->
+
+  <!-- BEGIN ROBOT 76 -->
+  <group ns="robot_76">
+    <param name="tf_prefix" value="$(arg robotName77)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName77)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="22.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 76 -->
+
+  <!-- BEGIN ROBOT 77 -->
+  <group ns="robot_77">
+    <param name="tf_prefix" value="$(arg robotName78)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName78)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="20.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 77 -->
+
+  <!-- BEGIN ROBOT 78 -->
+  <group ns="robot_78">
+    <param name="tf_prefix" value="$(arg robotName79)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName79)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="18.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 78 -->
+
+  <!-- BEGIN ROBOT 79 -->
+  <group ns="robot_79">
+    <param name="tf_prefix" value="$(arg robotName80)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName80)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="16.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 79 -->
+
+  <!-- BEGIN ROBOT 80 -->
+  <group ns="robot_80">
+    <param name="tf_prefix" value="$(arg robotName81)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName81)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="14.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 80 -->
+
+  <!-- BEGIN ROBOT 81 -->
+  <group ns="robot_81">
+    <param name="tf_prefix" value="$(arg robotName82)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName82)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="12.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 81 -->
+
+  <!-- BEGIN ROBOT 82 -->
+  <group ns="robot_82">
+    <param name="tf_prefix" value="$(arg robotName83)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName83)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="10.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 82 -->
+
+  <!-- BEGIN ROBOT 83 -->
+  <group ns="robot_83">
+    <param name="tf_prefix" value="$(arg robotName84)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName84)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="8.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 83 -->
+
+  <!-- BEGIN ROBOT 84 -->
+  <group ns="robot_84">
+    <param name="tf_prefix" value="$(arg robotName85)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName85)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="6.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 84 -->
+
+  <!-- BEGIN ROBOT 85 -->
+  <group ns="robot_85">
+    <param name="tf_prefix" value="$(arg robotName86)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName86)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="4.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 85 -->
+
+  <!-- BEGIN ROBOT 86 -->
+  <group ns="robot_86">
+    <param name="tf_prefix" value="$(arg robotName87)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName87)"/>
+    	<arg name="initial_pose_x" value="98.0"/>
+    	<arg name="initial_pose_y" value="2.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 86 -->
+
+  <!-- BEGIN ROBOT 87 -->
+  <group ns="robot_87">
+    <param name="tf_prefix" value="$(arg robotName88)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName88)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="58.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 87 -->
+
+  <!-- BEGIN ROBOT 88 -->
+  <group ns="robot_88">
+    <param name="tf_prefix" value="$(arg robotName89)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName89)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="56.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 88 -->
+
+  <!-- BEGIN ROBOT 89 -->
+  <group ns="robot_89">
+    <param name="tf_prefix" value="$(arg robotName90)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName90)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="54.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 89 -->
+
+  <!-- BEGIN ROBOT 90 -->
+  <group ns="robot_90">
+    <param name="tf_prefix" value="$(arg robotName91)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName91)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="52.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 90 -->
+
+  <!-- BEGIN ROBOT 91 -->
+  <group ns="robot_91">
+    <param name="tf_prefix" value="$(arg robotName92)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName92)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="50.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 91 -->
+
+  <!-- BEGIN ROBOT 92 -->
+  <group ns="robot_92">
+    <param name="tf_prefix" value="$(arg robotName93)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName93)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="48.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 92 -->
+
+  <!-- BEGIN ROBOT 93 -->
+  <group ns="robot_93">
+    <param name="tf_prefix" value="$(arg robotName94)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName94)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="46.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 93 -->
+
+  <!-- BEGIN ROBOT 94 -->
+  <group ns="robot_94">
+    <param name="tf_prefix" value="$(arg robotName95)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName95)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="44.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 94 -->
+
+  <!-- BEGIN ROBOT 95 -->
+  <group ns="robot_95">
+    <param name="tf_prefix" value="$(arg robotName96)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName89)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="42.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 95 -->
+
+  <!-- BEGIN ROBOT 96 -->
+  <group ns="robot_96">
+    <param name="tf_prefix" value="$(arg robotName97)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName97)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="40.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 96 -->
+
+  <!-- BEGIN ROBOT 97 -->
+  <group ns="robot_97">
+    <param name="tf_prefix" value="$(arg robotName98)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName98)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="38.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 97 -->
+
+  <!-- BEGIN ROBOT 98 -->
+  <group ns="robot_98">
+    <param name="tf_prefix" value="$(arg robotName99)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName99)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="36.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 98 -->
+
+  <!-- BEGIN ROBOT 99 -->
+  <group ns="robot_99">
+    <param name="tf_prefix" value="$(arg robotName100)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName100)"/>
+    	<arg name="initial_pose_x" value="97.0"/>
+    	<arg name="initial_pose_y" value="34.0"/>
+    	<arg name="initial_pose_a" value="3.14"/>
+    </include>
+  </group>
+  <!-- END ROBOT 99 -->
+
+</launch>

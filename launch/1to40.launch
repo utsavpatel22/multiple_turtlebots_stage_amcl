@@ -1,0 +1,570 @@
+<launch>
+
+	<arg name="robotName1" default="robot_0" />
+	<arg name="robotName2" default="robot_1" />
+	<arg name="robotName3" default="robot_2" />
+	<arg name="robotName4" default="robot_3" />
+	<arg name="robotName5" default="robot_4" />
+	<arg name="robotName6" default="robot_5" />
+	<arg name="robotName7" default="robot_6" />
+	<arg name="robotName8" default="robot_7" />
+	<arg name="robotName9" default="robot_8" />
+	<arg name="robotName10" default="robot_9" />
+
+	<arg name="robotName11" default="robot_10" />
+	<arg name="robotName12" default="robot_11" />
+	<arg name="robotName13" default="robot_12" />
+	<arg name="robotName14" default="robot_13" />
+	<arg name="robotName15" default="robot_14" />
+	<arg name="robotName16" default="robot_15" />
+	<arg name="robotName17" default="robot_16" />
+	<arg name="robotName18" default="robot_17" />
+	<arg name="robotName19" default="robot_18" />
+	<arg name="robotName20" default="robot_19" />
+
+	<arg name="robotName21" default="robot_20" />
+	<arg name="robotName22" default="robot_21" />
+	<arg name="robotName23" default="robot_22" />
+	<arg name="robotName24" default="robot_23" />
+	<arg name="robotName25" default="robot_24" />
+	<arg name="robotName26" default="robot_25" />
+	<arg name="robotName27" default="robot_26" />
+	<arg name="robotName28" default="robot_27" />
+	<arg name="robotName29" default="robot_28" />
+
+	<arg name="robotName30" default="robot_29" />
+	<arg name="robotName31" default="robot_30" />
+	<arg name="robotName32" default="robot_31" />
+	<arg name="robotName33" default="robot_32" />
+	<arg name="robotName34" default="robot_33" />
+	<arg name="robotName35" default="robot_34" />
+	<arg name="robotName36" default="robot_35" />
+	<arg name="robotName37" default="robot_36" />
+	<arg name="robotName38" default="robot_37" />
+	<arg name="robotName39" default="robot_38" />
+
+	<arg name="robotName40" default="robot_39" />
+
+	<!-- BEGIN ROBOT 0 -->
+  <group ns="robot_0">
+    <param name="tf_prefix" value="$(arg robotName1)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName1)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="58.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 0 -->
+
+
+  <!-- BEGIN ROBOT 1 -->
+  <group ns="robot_1">
+    <param name="tf_prefix" value="$(arg robotName2)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName2)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="56.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 1 -->
+
+  <!-- BEGIN ROBOT 2 -->
+  <group ns="robot_2">
+    <param name="tf_prefix" value="$(arg robotName3)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName3)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="54.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 2 -->
+
+
+  <!-- BEGIN ROBOT 3 -->
+  <group ns="robot_3">
+    <param name="tf_prefix" value="$(arg robotName4)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName4)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="52.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 3 -->
+
+  <!-- BEGIN ROBOT 4 -->
+  <group ns="robot_4">
+    <param name="tf_prefix" value="$(arg robotName5)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName5)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="50.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 4 -->
+
+  <!-- BEGIN ROBOT 5 -->
+  <group ns="robot_5">
+    <param name="tf_prefix" value="$(arg robotName6)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName6)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="48.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 5 -->
+
+  <!-- BEGIN ROBOT 6 -->
+  <group ns="robot_6">
+    <param name="tf_prefix" value="$(arg robotName7)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName7)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="46.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 6 -->
+
+  <!-- BEGIN ROBOT 7 -->
+  <group ns="robot_7">
+    <param name="tf_prefix" value="$(arg robotName8)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName8)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="44.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 7 -->
+
+  <!-- BEGIN ROBOT 8 -->
+  <group ns="robot_8">
+    <param name="tf_prefix" value="$(arg robotName9)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName9)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="42.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 8 -->
+
+  <!-- BEGIN ROBOT 9 -->
+  <group ns="robot_9">
+    <param name="tf_prefix" value="$(arg robotName10)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName10)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="40.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 2 -->
+
+  <!-- BEGIN ROBOT 10 -->
+  <group ns="robot_10">
+    <param name="tf_prefix" value="$(arg robotName11)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName11)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="38.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 10 -->
+
+  <!-- BEGIN ROBOT 11 -->
+  <group ns="robot_11">
+    <param name="tf_prefix" value="$(arg robotName12)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName12)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="36.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 11 -->
+
+  <!-- BEGIN ROBOT 12 -->
+  <group ns="robot_12">
+    <param name="tf_prefix" value="$(arg robotName13)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName13)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="34.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 12 -->
+
+  <!-- BEGIN ROBOT 13 -->
+  <group ns="robot_13">
+    <param name="tf_prefix" value="$(arg robotName14)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName14)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="32.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 13 -->
+
+  <!-- BEGIN ROBOT 14 -->
+  <group ns="robot_14">
+    <param name="tf_prefix" value="$(arg robotName15)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName15)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="30.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 14 -->
+
+  <!-- BEGIN ROBOT 15 -->
+  <group ns="robot_15">
+    <param name="tf_prefix" value="$(arg robotName16)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName16)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="28.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 15 -->
+
+  <!-- BEGIN ROBOT 16 -->
+  <group ns="robot_16">
+    <param name="tf_prefix" value="$(arg robotName17)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName17)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="26.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 16 -->
+
+  <!-- BEGIN ROBOT 17 -->
+  <group ns="robot_17">
+    <param name="tf_prefix" value="$(arg robotName18)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName18)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="24.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 17 -->
+
+  <!-- BEGIN ROBOT 18 -->
+  <group ns="robot_18">
+    <param name="tf_prefix" value="$(arg robotName19)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName19)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="22.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 18 -->
+
+  <!-- BEGIN ROBOT 19 -->
+  <group ns="robot_19">
+    <param name="tf_prefix" value="$(arg robotName20)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName20)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="20.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 19 -->
+
+  <!-- BEGIN ROBOT 20 -->
+  <group ns="robot_20">
+    <param name="tf_prefix" value="$(arg robotName21)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName21)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="18.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 20 -->
+
+  <!-- BEGIN ROBOT 21 -->
+  <group ns="robot_21">
+    <param name="tf_prefix" value="$(arg robotName22)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName22)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="16.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 21 -->
+
+  <!-- BEGIN ROBOT 22 -->
+  <group ns="robot_22">
+    <param name="tf_prefix" value="$(arg robotName23)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName23)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="14.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 22 -->
+
+  <!-- BEGIN ROBOT 23 -->
+  <group ns="robot_23">
+    <param name="tf_prefix" value="$(arg robotName24)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName24)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="12.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 23 -->
+
+  <!-- BEGIN ROBOT 24 -->
+  <group ns="robot_24">
+    <param name="tf_prefix" value="$(arg robotName25)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName25)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="10.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 24 -->
+
+  <!-- BEGIN ROBOT 25 -->
+  <group ns="robot_25">
+    <param name="tf_prefix" value="$(arg robotName26)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName26)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="8.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 25 -->
+
+  <!-- BEGIN ROBOT 26 -->
+  <group ns="robot_26">
+    <param name="tf_prefix" value="$(arg robotName27)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName27)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="6.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 26 -->
+
+  <!-- BEGIN ROBOT 27 -->
+  <group ns="robot_27">
+    <param name="tf_prefix" value="$(arg robotName28)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName28)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="4.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 27 -->
+
+  <!-- BEGIN ROBOT 28 -->
+  <group ns="robot_28">
+    <param name="tf_prefix" value="$(arg robotName29)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName29)"/>
+    	<arg name="initial_pose_x" value="5.0"/>
+    	<arg name="initial_pose_y" value="2.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 28 -->
+
+  <!-- BEGIN ROBOT 29 -->
+  <group ns="robot_29">
+    <param name="tf_prefix" value="$(arg robotName30)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName30)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="58.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 29 -->
+
+  <!-- BEGIN ROBOT 30 -->
+  <group ns="robot_30">
+    <param name="tf_prefix" value="$(arg robotName31)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName31)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="56.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 30 -->
+
+  <!-- BEGIN ROBOT 31 -->
+  <group ns="robot_31">
+    <param name="tf_prefix" value="$(arg robotName32)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName32)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="54.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 31 -->
+
+  <!-- BEGIN ROBOT 32 -->
+  <group ns="robot_32">
+    <param name="tf_prefix" value="$(arg robotName33)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName33)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="52.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 32 -->
+
+  <!-- BEGIN ROBOT 33 -->
+  <group ns="robot_33">
+    <param name="tf_prefix" value="$(arg robotName34)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName34)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="50.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 33 -->
+
+  <!-- BEGIN ROBOT 34 -->
+  <group ns="robot_34">
+    <param name="tf_prefix" value="$(arg robotName35)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName35)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="48.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 34 -->
+
+  <!-- BEGIN ROBOT 35 -->
+  <group ns="robot_35">
+    <param name="tf_prefix" value="$(arg robotName35)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName35)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="46.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 35 -->
+
+  <!-- BEGIN ROBOT 36 -->
+  <group ns="robot_36">
+    <param name="tf_prefix" value="$(arg robotName37)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName37)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="44.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 36 -->
+
+  <!-- BEGIN ROBOT 37 -->
+  <group ns="robot_37">
+    <param name="tf_prefix" value="$(arg robotName38)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName38)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="42.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 37 -->
+
+  <!-- BEGIN ROBOT 38 -->
+  <group ns="robot_38">
+    <param name="tf_prefix" value="$(arg robotName39)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName39)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="40.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 38 -->
+
+  <!-- BEGIN ROBOT 39 -->
+  <group ns="robot_39">
+    <param name="tf_prefix" value="$(arg robotName40)" />
+    <include file="$(find multiple_robots_stage)/launch/client_robot.launch"/>
+    <include file="$(find multiple_robots_stage)/launch/includes/single_robot.launch">
+    	<arg name="namespace" value="$(arg robotName40)"/>
+    	<arg name="initial_pose_x" value="4.0"/>
+    	<arg name="initial_pose_y" value="38.0"/>
+    	<arg name="initial_pose_a" value="0.0"/>
+    </include>
+  </group>
+  <!-- END ROBOT 39 -->
+
+</launch>
