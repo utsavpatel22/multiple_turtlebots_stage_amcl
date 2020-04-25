@@ -7,4 +7,4 @@ Alternatively, `python scripts/patrol_organizer` will set both robots to patrol 
 
 ## Required package
 1) TEB local planner 
-`sudo apt-get install ros-kinetic-eband-local-planner'
+`sudo apt-get install ros-kinetic-eband-local-planner`
